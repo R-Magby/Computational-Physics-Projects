@@ -26,3 +26,7 @@ I simulated the wave equations in cartesian coordinate using deep learning, the 
 The last than i study is the framework PLUTO for the simulations the HD, MHD, RMHD, etc... how project i realized the little investigation of jets under magnetig field in cilindircal cordinate.
 - PLUTO is a framework for simulate fluid orient for Astrophysical GasDynamics, is developed at the Dipartimento di Fisica, Torino University in a joint collaboration with INAF, Osservatorio Astronomico di Torino and currently under the support of the  SPACE Center of Excellence. (https://plutocode.ph.unito.it/)
 - 
+## Others
+- Software for wave simulations.  
+- N-body gravitational simulations, using leap-frog and particle-mesh methods.
+- Project data science for the pm2.5 prediction.
