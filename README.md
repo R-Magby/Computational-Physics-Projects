@@ -17,7 +17,7 @@ I replicated the results of the article: "Gravitational collapse of quantum fiel
   - 10th diference finite, for the derivate.
   -  4th Kreis-Oliger dissipation, artificial numeric
   -  And rectangular method, for the integrals.
-<img src="Semiclassic scalar field/dos.png" alt="drawing" width="700"/>
+<img src="Semiclassic scalar field/dos.png" alt="drawing" width="1000"/>
 
 ## Wave simulations with deep learning (PINN) 
 I simulated the wave equations in cartesian coordinate using deep learning, the model for this is: "Physics-Informed Neural Network".
