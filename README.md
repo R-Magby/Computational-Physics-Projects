@@ -6,7 +6,6 @@ In this repository I share my codes and notes related to physics simulations and
 ## Collapse scalar field
 Simulate the dynamics of collapse scalar field based on this article: "Gravitational collapse of k-essence"
 -  I perfomr a code in C, optmized with CUDA, the numerical methods are explicit euler method for the evolution, diference fintie for the derivate, the triagonal method for the Lapso and the integrals used the Simpson's method.
-   ![Imagen](Colapso/lapso_final_0.01.gif)
    <img src="Colapso/lapso_final_0.01.gif" alt="drawing" width="500"/>
 
 ## Semi-classic collapse scalar field (Thesis).
@@ -18,14 +17,13 @@ I replicated the results of the article: "Gravitational collapse of quantum fiel
   - 10th diference finite, for the derivate.
   -  4th Kreis-Oliger dissipation, artificial numeric
   -  And rectangular method, for the integrals.
-![Imagen](Semiclassic%20scalar%20field/dos.png)
+<img src="Semiclassic scalar field/dos.png" alt="drawing" width="500"/>
 ## Wave simulations with deep learning (PINN) 
 I simulated the wave equations in cartesian coordinate using deep learning, the model for this is: "Physics-Informed Neural Network".
 - This project i realized because explore the potential and efficient the PINN.
 - The simulation was using '1000 epoch' for each step time. This model was very deficient and few exact in comparasion with tradicional methods.
 - I know that I have a lot left to explore, both in terms of improving the model and studying the theory. I hope to better use artificial intelligence to solve differential equations in future projects. To do so, I need to study a lot of the underlying theory, identify physical systems where it can be implemented (and those where it can't), and stay up-to-date with the latest research.
-![Imagen](PINN/gaussiana_tf12.gif)
-
+<img src="PINN/gaussiana_tf12.gif" alt="drawing" width="500"/>
 ## Jet in MHD simulation using PLUTO 
 The last than i study is the framework PLUTO for the simulations the HD, MHD, RMHD, etc... how project i realized the little investigation of jets under magnetig field in cilindircal cordinate.
 - PLUTO is a framework for simulate fluid orient for Astrophysical GasDynamics, is developed at the Dipartimento di Fisica, Torino University in a joint collaboration with INAF, Osservatorio Astronomico di Torino and currently under the support of the  SPACE Center of Excellence. (https://plutocode.ph.unito.it/)
