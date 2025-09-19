@@ -1,11 +1,13 @@
 # Computational-Physics-Projects
 In this repository I share my codes and notes related to physics simulations and complex calculations.
 
+---
 
 ## Collapse scalar field
 Simulate the dynamics of collapse scalar field based on this article: "Gravitational collapse of k-essence"
 -  I perfomr a code in C, optmized with CUDA, the numerical methods are explicit euler method for the evolution, diference fintie for the derivate, the triagonal method for the Lapso and the integrals used the Simpson's method.
    ![Imagen](Colapso/lapso_final_0.01.gif)
+   <img src="Colapso/lapso_final_0.01.gif" alt="drawing" width="200"/>
 
 ## Semi-classic collapse scalar field (Thesis).
 I replicated the results of the article: "Gravitational collapse of quantum fields and Choptuik scaling", also i implemet a modify the absorbing boundary conditions.
