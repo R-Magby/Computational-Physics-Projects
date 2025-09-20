@@ -10,6 +10,7 @@ Simulate the dynamics of collapse scalar field based on this article: "Gravitati
    <img src="Colapso/colapso_final_0.01.gif" alt="drawing" width="500"/>
   <figcaption>Dynamics field, show the energy accumulate in the origin, this modify the space-time causing the lapse collapse (black hole)</figcaption>
 </figure>
+
 ## Semi-classic collapse scalar field (Thesis).
 I replicated the results of the article: "Gravitational collapse of quantum fields and Choptuik scaling", also i implemet a modify the absorbing boundary conditions.
 - The system consist in a massless scalar field with a quantum correction using coherent states in a spherically symmetric space-time, also employ Pauli–Villars regularization with five regulator fields and cosmological constant to handle the inherent divergences in the theory.
