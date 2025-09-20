@@ -6,6 +6,13 @@ In this repository I share my codes and notes related to physics simulations and
 ## Collapse scalar field
 Simulate the dynamics of collapse scalar field based on this article: "Gravitational collapse of k-essence"
 -  I perfomr a code in C, optmized with CUDA, the numerical methods are explicit euler method for the evolution, diference fintie for the derivate, the triagonal method for the Lapso and the integrals used the Simpson's method.
+
+-  the physical system has a metric tensor such that:
+```math
+ \begin{equation}
+     ds^2=-\alpha^2dr^2+Adr^2+Br^2d\Omega^2
+ \end{equation}
+```
 <figure>
    <img src="Colapso/colapso_final_0.01.gif" alt="drawing" width="500"/>
   <figcaption>Dynamics field, show the energy accumulate in the origin, this modify the space-time causing the lapse collapse (black hole)</figcaption>
@@ -14,6 +21,11 @@ Simulate the dynamics of collapse scalar field based on this article: "Gravitati
 ## Semi-classic collapse scalar field (Thesis).
 I replicated the results of the article: "Gravitational collapse of quantum fields and Choptuik scaling", also i implemet a modify the absorbing boundary conditions.
 - The system consist in a massless scalar field with a quantum correction using coherent states in a spherically symmetric space-time, also employ Pauli–Villars regularization with five regulator fields and cosmological constant to handle the inherent divergences in the theory.
+  ```math
+ \begin{equation}
+     ds^2=-\alpha^2dr^2+Adr^2+Br^2d\Omega^2
+ \end{equation}
+```
 - The boundary condition be modify for absorb the normal modes, the tipical ABC correspond for a analict solutions for the wave equations and Klein-Gordon equations, but the Fourier solutions for a quantum field has linear combinations of incoming and outgoing waves. I porpussed a ABC than depend of mode k and mode l.
 - The codes was wrote in C lenguage and optimized with CUDA, however the numerical methods are:
   - Implicit 10th Runge-Kutta, with the Gauss-Legendre cofficient, in the evolution equations.
