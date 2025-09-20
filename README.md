@@ -33,7 +33,7 @@ I replicated the results of the article: "Gravitational collapse of quantum fiel
   -  4th Kreis-Oliger dissipation, artificial numeric
   -  And rectangular method, for the integrals.
 <figure>
-   <img src="Semiclassic scalar field/Dos1.png" alt="drawing" width="1000"/>
+   <img src="Semiclassic scalar field/dos1.png" alt="drawing" width="1000"/>
   <figcaption> (Left) Heatmap of the lapse, the color black indicate that the collapse toward a black hole, the semiclassic show the energy coming of the boundary, this by reason of the normal mode (quantum fields). (Rigth) each plots representing the energy-momentum tensor compontents with different numbers of normal mode, as this increases the components converges a vacuum values, this indicate a correct regularization with Pauli-Villars fields </figcaption>
 </figure>
 
