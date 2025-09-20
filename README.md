@@ -10,7 +10,7 @@ Simulate the dynamics of collapse scalar field based on this article: "Gravitati
 -  the physical system has a metric tensor such that:
 ```math
  \begin{equation}
-     ds^2=-\alpha^2dr^2+Adr^2+Br^2d\Omega^2
+     ds^2=-N^2dr^2+(dr+\beta^rdt)^2+R^2d\Omega^2
  \end{equation}
 ```
 <figure>
@@ -21,7 +21,7 @@ Simulate the dynamics of collapse scalar field based on this article: "Gravitati
 ## Semi-classic collapse scalar field (Thesis).
 I replicated the results of the article: "Gravitational collapse of quantum fields and Choptuik scaling", also i implemet a modify the absorbing boundary conditions.
 - The system consist in a massless scalar field with a quantum correction using coherent states in a spherically symmetric space-time, also employ Pauli–Villars regularization with five regulator fields and cosmological constant to handle the inherent divergences in the theory.
-  ```math
+```math
  \begin{equation}
      ds^2=-\alpha^2dr^2+Adr^2+Br^2d\Omega^2
  \end{equation}
