@@ -53,7 +53,8 @@ The last than i study is the framework PLUTO for the simulations the HD, MHD, RM
 
 Solarized dark             |  Solarized Ocean
 :-------------------------:|:-------------------------:
-<img src="MHD/rho_ideal.gif" alt="drawing" width="1000"/>|<img src="MHD/pvte.gif" alt="drawing" width="1000"/>
+<img src="MHD/rho_ideal.gif" alt="drawing" width="450"/>|<img src="MHD/pvte.gif" alt="drawing" width="450"/>
+
 
 
 
