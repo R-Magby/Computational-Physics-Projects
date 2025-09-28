@@ -50,8 +50,10 @@ I simulated the wave equations in cartesian coordinate using deep learning, the 
 ## Jet in MHD simulation using PLUTO 
 The last than i study is the framework PLUTO for the simulations the HD, MHD, RMHD, etc... how project i realized the little investigation of jets under magnetig field in cilindircal cordinate.
 - PLUTO is a framework for simulate fluid orient for Astrophysical GasDynamics, is developed at the Dipartimento di Fisica, Torino University in a joint collaboration with INAF, Osservatorio Astronomico di Torino and currently under the support of the  SPACE Center of Excellence. (https://plutocode.ph.unito.it/)
+- TThe simulations consist of two jets in cylindrical symmetry with a magnetic field in the phi dirrection, but different **EOS**
+- The acumulation of density at 'r=0' it is cause by for a effect called "pinch", where the toroidal magnetic field increases the pressure toward the axis, producing a confining force that tends to squeeze the jet.
 
-Solarized dark             |  Solarized Ocean
+IDEAL             |  PVTE_LAW
 :-------------------------:|:-------------------------:
 <img src="MHD/rho_ideal.gif" alt="drawing" width="450"/>|<img src="MHD/pvte.gif" alt="drawing" width="450"/>
 
