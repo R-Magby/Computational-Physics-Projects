@@ -56,7 +56,7 @@ The last than i study is the framework PLUTO for the simulations the HD, MHD, RM
    <img src="MHD/rho_ideal.gif" alt="drawing" width="1000"/>
   <figcaption> IDEAL </figcaption>
 
-   <img src="MHD/rho_pvte.gif" alt="drawing" width="1000"/>
+   <img src="MHD/pvte.gif" alt="drawing" width="1000"/>
   <figcaption> IDEAL </figcaption>
 </figure>
 
